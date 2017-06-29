@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreClient", "CoreClient\CoreClient.csproj", "{C25219C5-9F1A-4489-B2FF-104E96C078CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyticAlways.CommonTools", "AnalyticAlways.CommonTools\AnalyticAlways.CommonTools.csproj", "{661412C1-88D7-47C8-BE02-5F581551B3CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{C25219C5-9F1A-4489-B2FF-104E96C078CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C25219C5-9F1A-4489-B2FF-104E96C078CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C25219C5-9F1A-4489-B2FF-104E96C078CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661412C1-88D7-47C8-BE02-5F581551B3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661412C1-88D7-47C8-BE02-5F581551B3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661412C1-88D7-47C8-BE02-5F581551B3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661412C1-88D7-47C8-BE02-5F581551B3CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
