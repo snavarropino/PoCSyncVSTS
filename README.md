@@ -1,20 +1,22 @@
 #Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is an utilities library created in order to be uploaded to a Nuget Private feed, in the scope of a NuGet PoC
 
 #Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+
+
+1.	Install the library in your project: 
+
+		Install-Package AnalyticAlways.CommonToolsCore -Source "https://analyticalways.pkgs.visualstudio.com/_packaging/AlfaTeamFeed/nuget/v3/index.json"
+
+2.	Software dependencies: .net core 1.1
+
+3.	Use it:
+
+		var isValid=RegexUtil.IsRegexPatternValid("WTF!");
+
 
 #Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+There is a VSTS build that bnuild the code, test it and finally push a NuGet package to the private feed 
 
 #Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Please don't spend your time trying to improve my fucking yeah library!

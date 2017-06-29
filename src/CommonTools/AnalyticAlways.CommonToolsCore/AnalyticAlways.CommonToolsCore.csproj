@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageId>AnalyticAlways.CommonToolsCore</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Sergio Navarro</Authors>
+    <Description>Awesome tools package</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>First release</PackageReleaseNotes>
+    <Copyright>Copyright 2017 (c) AnalyticAlways.</Copyright>
+    <PackageTags>commont tools</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp1.1\AnalyticAlways.CommonToolsCore.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
