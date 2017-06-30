@@ -16,7 +16,11 @@ This is an utilities library created in order to be uploaded to a Nuget Private 
 
 
 #Build and Test
-There is a VSTS build that bnuild the code, test it and finally push a NuGet package to the private feed 
+There is a VSTS build that builds the code, tests it and finally pushes a NuGet package to the private feed 
 
 #Contribute
 Please don't spend your time trying to improve my fucking yeah library!
+
+#Remarks
+
+This repo is mantained in VSTS and synchronized with GitHub. Yeah!
